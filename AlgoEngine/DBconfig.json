@@ -1,0 +1,84 @@
+{
+	"patients":
+		{
+			"PatientName":"0x0010,0x0010",
+			"PatientBirthDate":"0x0010,0x0030",
+			"PatientSex":"0x0010,0x0040",
+			"EthnicGroup":"0x0010,0x2160"
+		},
+	
+	"studies":
+		{
+			"PatientName":"0x0010,0x0010",
+			"StudyInstanceUID":"0x0020,0x000D",
+			"StudyDate": "0x0008,0x0020",
+			"StudyDescription":"0x0008,0x1030"
+		},
+	
+	"series":
+		{
+			"PatientName":"0x0010,0x0010",
+			"SeriesInstanceUID" : "0x0020,0x000E",
+			"SeriesDate" : "0x0008,0x0021",
+			"SeriesDescription" : "0x0008,0x103E",
+			"SeriesType" : "0x0054,0x1000",
+			"Modality" : "0x0008,0x0060",
+			"SeriesNumber" : "0x0020,0x0011",
+			"PhysiciansOfRecord" : "0x0008,0x1048",
+			"Manufacturer" : "0x0008,0x0070"
+		},
+	
+	"ctImages":
+		{
+			"PatientName":"0x0010,0x0010",
+			"SOPInstanceUID" : "0x0008,0x0018",
+			"SOPClassUID" : "0x0008, 0x0016",
+			"ImageType" : "0x0008,0x0008",
+			"PhotometricInterpretation":"0x0028,0x0004",
+			"RescaleSlope" : "0x0028,0x1053",
+			"RescaleIntercept" : "0x0028,0x1052",
+			"SliceLocation" : "0x0020,0x1041",
+			"PixelSpacing" : "0x0028,0x0030",
+			"ImageOrientationPatient":"0x0020,0x0037",
+			"ImagePositionPatient" : "0x0020,0x0032",
+			"SliceThickness" : "0x0018,0x0050",
+			"BodyPartExamined" : "0x0018,0x0015",
+			"Rows" : "0x0028,0x0010",
+			"Columns" : "0x0028,0x0011"
+		},
+	
+	"rtStructureSet" :
+		{
+			"PatientName":"0x0010,0x0010",
+			"SOPInstanceUID" : "0x0008, 0x0018",
+			"SOPClassUID" : "0x0008, 0x0016"
+		},
+	
+	"roi" :
+		{
+			
+			"SOPInstanceUID" : "0x0008, 0x0018",
+			"ROIName" : "0x3006, 0x0026",
+			"ROIDisplayColor" : "0x3006, 0x002A",
+			"RTROIInterpretedType" : "0x3006, 0x00A4"
+		},
+		
+	"rtContour" :
+		{
+			
+			
+			"ROIName" : "0x3006, 0x0026",
+			"ContourGeometricType" : "0x3006, 0x0042",
+			"NumberOfContourPoints" : "0x3006, 0x0046",
+			"ContourData" : "0x3006, 0x0050",
+			"ContourImageSequence" : "0x3006, 0x0016",
+			"ReferencedSOPClassUID" : "0x0008, 0x1150",
+			"ReferencedSOPInstanceUID" : "0x0008, 0x1155"
+		}
+	}
+		
+		
+	
+	
+	
+
